@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --fonte1: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+div#principal {
+    background-color: #008060;
+}
+div#imagem {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+div#imagem img {
+    width: 135px;
+    height: 135px;
+    margin-top: -20px;
+}
+#principal h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.3em;
+}
+#principal h2.primeira {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte1);
+    margin-top: 25px;
+    font-size: 1.8em;
+}
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+#formulario form input {
+    height: 50px;
+    width: 450px;
+    margin-bottom: 8px;
+    font-size: 1.4em;
+    padding-left: 15px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+#formulario form button {
+    color: white;
+    background-color: #131416;
+    width: 468px;
+    height: 53px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+#formulario form button:active {
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 8px black;
+}
+#principal p {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+#img {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div#cont {
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+#ass aside h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+#ass aside p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    margin-bottom: 40px;
+    color: #6B718C;
+}
+#logotipos ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+#logo ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+#lg ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+hr {
+    width: 700px;
+    margin: auto;
+}
+#cont h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: var(--fonte1);
+    font-size: 1.7em;
+    line-height: 1.5em;
+}
+#cont p.nome {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-family: var(--fonte1);
+    font-weight: bold;
+    color: #42474C;
+    font-size: 0.8em;
+}
+
+#avaliacao {
+    text-decoration: none;
+    background-color: #008060;
+    width: 239px;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#avaliacao a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+#avaliacao:hover {
+    background-color: #004C3F;
+}
+#avaliacao:active {
+    box-shadow: 0px 0px 8px black;
+}
+div#ultima {
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+div#ultima p a {
+    display: flex;
+    padding-top: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4F8078;
+}
+@media not screen  and (min-width: 950px){
+    #principal h1 {
+        font-size: 1.6em;
+    }
+    #principal h2.primeira {
+        font-size: 1.5em;
+    }
+    #formulario form input {
+        width: 380px;
+    }
+    #formulario form button {
+        width: 398px;
+    }
+    #cont h2 {
+        font-size: 1.1em;
+    }
+    #principal p {
+        font-size: 0.7em;
+        line-height: 1.7em
+    }
+    hr {
+        width: 400px;
+    }
+}
